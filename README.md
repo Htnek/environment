@@ -118,5 +118,5 @@ tf.config.list_physical_devices('GPU')
 ```
 If all goes well you will see:   
   
-Adding visible gpu devices: 0  
-[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]  
+>Adding visible gpu devices: 0  
+>[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]  
