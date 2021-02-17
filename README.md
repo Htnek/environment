@@ -1,4 +1,4 @@
-# Adding gpu-support for Ubuntu 18.04
+# Adding NVIDIA GPU support for Ubuntu 18.04
 
 ## Add NVIDIA package repositories
 ```bash
