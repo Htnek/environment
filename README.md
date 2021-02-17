@@ -127,3 +127,8 @@ If all goes well you will see:
   
 >Adding visible gpu devices: 0  
 >[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]  
+
+# How to watch GPU usage
+```bash
+watch -n 1 nvidia-smi
+```
