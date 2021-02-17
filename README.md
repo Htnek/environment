@@ -57,15 +57,15 @@ sudo apt-get install -y --no-install-recommends libnvinfer7=7.1.3-1+cuda11.0 \
 Download installer from:
 https://www.anaconda.com/download/#linux
 
-Include the bash command regardless of whether or not you are using Bash shell.
+Include the bash command regardless of whether or not you are using Bash shell.  
 If you did not download to your Downloads directory, replace ~/Downloads/ with the path to the file you downloaded.
 ```bash
 bash ~/Downloads/Anaconda3-YYYY.MM-Linux-x86_64.sh
 ```
-Scroll to the bottom of the license terms and enter “Yes” to agree.
-Accept the default install location.
-The installer prompts “Do you wish the installer to initialize Anaconda3 by running conda init?” Choose “yes”.
-Close and open your terminal window for the installation to take effect, or you can enter the command 
+Scroll to the bottom of the license terms and enter “Yes” to agree.  
+Accept the default install location.  
+The installer prompts “Do you wish the installer to initialize Anaconda3 by running conda init?” Choose “yes”.  
+Close and open your terminal window for the installation to take effect, or you can enter the command  
 ```bash
 source ~/.bashrc
 ```
