@@ -88,9 +88,6 @@ python -m ipykernel install --user --name=python3
 ```
 # Update environment tf2
 ```bash
-conda activate tf2
-```
-```bash
 conda env update --file environment.yml  --prune
 ```
 # Test if GPU is available
