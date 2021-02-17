@@ -86,8 +86,17 @@ conda env create -f environment.yml
 ```bash
 conda activate tf2
 ```
+## Registering kernel
 ```bash
 python -m ipykernel install --user --name=python3
+```
+## Removing kernel
+How to find unwanted-kernel.
+```bash
+jupyter kernelspec list
+```
+```bash
+jupyter kernelspec uninstall unwanted-kernel
 ```
 Starting Jupyter Notebook
 ```bash
@@ -106,6 +115,7 @@ Removal of environment
 ```bash
 conda remove --name name_of_environment --all
 ```
+
 # Test if GPU is available
 Start a terminal
 ```bash
