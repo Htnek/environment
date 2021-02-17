@@ -74,3 +74,16 @@ conda activate tf2
 ```bash
 conda env update --file environment.yml  --prune
 ```
+# Test if GPU is available
+```bash
+conda activate tf2
+```
+```bash
+python
+```
+```bash
+import tensorflow as tf
+```
+```bash
+tf.config.list_physical_devices('GPU')
+```
