@@ -65,7 +65,7 @@ bash ~/Downloads/Anaconda3-YYYY.MM-Linux-x86_64.sh
 Scroll to the bottom of the license terms and enter “Yes” to agree.  
 Accept the default install location.  
 The installer prompts “Do you wish the installer to initialize Anaconda3 by running conda init?” Choose “yes”.  
-Close and open your terminal window for the installation to take effect, or you can enter the command  
+Close and open your terminal window for the installation to take effect, or you can enter the command:
 ```bash
 source ~/.bashrc
 ```
