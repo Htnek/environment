@@ -29,7 +29,10 @@ sudo apt-get update
 ```bash
 sudo apt-get install --no-install-recommends nvidia-driver-450
 ```
-### Reboot. Check that GPUs are visible using the command: nvidia-smi
+### Reboot. Check that GPUs are visible using the command:
+```bash
+nvidia-smi
+```
 ```bash
 wget https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64/libnvinfer7_7.1.3-1+cuda11.0_amd64.deb
 ```
