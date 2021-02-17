@@ -90,15 +90,16 @@ conda activate tf2
 ```bash
 python -m ipykernel install --user --name=python3
 ```
-## Removing kernel
-How to find unwanted-kernel.
+## Removing unwanted-kernel
+Find it with:
 ```bash
 jupyter kernelspec list
 ```
+Remove it with:
 ```bash
 jupyter kernelspec uninstall unwanted-kernel
 ```
-Starting Jupyter Notebook
+## Starting Jupyter Notebook
 ```bash
 jupyter notebook
 ```
