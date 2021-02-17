@@ -86,6 +86,10 @@ conda activate tf2
 ```bash
 python -m ipykernel install --user --name=python3
 ```
+Starting Jupyter Notebook
+```bash
+jupyter notebook
+```
 # Update environment tf2
 ```bash
 conda env update --file environment.yml  --prune
