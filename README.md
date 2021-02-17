@@ -76,7 +76,7 @@ To run conda from anywhere without having the base environment activated by defa
 ```bash
 conda config --set auto_activate_base False
 ```
-# Create the environment tf2
+## Create the environment tf2
 ```bash
 git clone https://github.com/Htnek/environment.git
 ```
@@ -93,11 +93,11 @@ Starting Jupyter Notebook
 ```bash
 jupyter notebook
 ```
-# Update environment tf2
+## Update environment tf2
 ```bash
 conda env update --file environment.yml  --prune
 ```
-# Removing environment
+## Removing environment
 Show name of environment
 ```bash
 conda info --envs
