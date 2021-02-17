@@ -11,7 +11,7 @@ conda activate tf2
 ```bash
 python -m ipykernel install --user --name=python3
 ```
-Update environment
+Update environment tf2
 ```bash
 conda activate tf2
 ```
