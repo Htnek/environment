@@ -90,6 +90,15 @@ python -m ipykernel install --user --name=python3
 ```bash
 conda env update --file environment.yml  --prune
 ```
+# Removing environment
+Show name of environment
+```bash
+conda info --envs
+```
+Removal of environment
+```bash
+conda remove --name name_of_environment --all
+```
 # Test if GPU is available
 ```bash
 conda activate tf2
