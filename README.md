@@ -1,4 +1,5 @@
 # Adding NVIDIA GPU support for Ubuntu 18.04
+This is from https://www.tensorflow.org/install/gpu
 
 ## Add NVIDIA package repositories
 ```bash
