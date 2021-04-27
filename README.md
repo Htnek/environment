@@ -1,3 +1,7 @@
+# How to get Tensorflow working with Anaconda
+```bash
+conda install cudatoolkit==10.1.243 cudnn tensorflow-gpu
+```
 # Adding NVIDIA GPU support for Ubuntu 18.04
 This is from https://www.tensorflow.org/install/gpu
 
