@@ -1,4 +1,4 @@
-# How to get Tensorflow working with Anaconda
+# How to get Tensorflow working with Anaconda on Windows
 ```bash
 conda install cudatoolkit==10.1.243 cudnn tensorflow-gpu
 ```
